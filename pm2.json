@@ -1,0 +1,13 @@
+{
+  "apps": [
+      {
+          "name": "site",
+          "script" : "serve -s build",
+          "exec_mode": "fork",
+          "env": {
+              "NODE_ENV": "production"
+          },
+          "interpreter" : "none"
+      }
+  ]
+}
